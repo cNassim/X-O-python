@@ -1,0 +1,1 @@
+              self.ai_depth = 1

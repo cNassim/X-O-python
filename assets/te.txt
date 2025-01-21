@@ -1,0 +1,73 @@
+1°) Norme d’écriture du code
+Le principe d’uniformité PU (cf Annexe 1) va impliquer que l’écriture de votre code suive
+un standard de rédaction. Nous avons commencé à en voir un dans la phase de Conception
+du Logiciel, concernant les modules/classes et les en-têtes de méthodes.
+Nous allons aller plus loin en imposant également des conventions de nommage sur les
+types, variables et méthodes.
+Nous nommerons tous les types en commençant par la lettre T en majuscule et suivi du nom
+en minuscule, par exemple, Ttableau, Tchaine,...
+Concernant les noms de fonctions nous utiliserons les trigrammes pour les fonctions
+appartenant à des modules/classes (méthodes). Le trigramme sera généralement constitué
+par les trois premières lettres du nom du module/classe. Lorsque la fonction n'appartient pas
+à une méthode/classe (la règle pour les structures est identique au cas des classes) alors on
+utilisera simplement son nom en le faisant commencer par une majuscule.
+Le cas des variables est un peu plus complexe. Chaque nom de variable sera précédé d'une
+ou plusieurs lettres selon le cas de figure. Si cette variable est un pointeur alors son nom
+commencera par la lettre p suivi de lettres pour préciser le type sur lequel elle pointe. On
+utilisera le tableau suivant pour les correspondances : celui-ci est donné dans le cas des langages C/C++ mais vous pourrez facilement l’adapter à un autre langage !
+Lettre Type de base
+c char
+i int
+ui unsigned int
+f float
+d double
+b bool
+Par exemple, une variable de nom boucle, de type int, sera nommée iBoucle. Une
+variable de nom ligne et de type pointeur sur un caractère sera nommée pcLigne.
+Si la variable est un attribut d'une classe on utilisera le trigramme associé à la classe (cf. cidessus et le nommage des fonctions). Ainsi, si la variable pcLigne appartient à la classe
+Cliste_generique, son nom devient pcLIGligne.
+Regardez à nouveau les bouts de code C qui étaient donnés à titre d’exemple dans le
+chapitre précédent et vous verrez que nous avions déjà utilisé cette convention de
+nommage !
+Bien évidemment, la proposition faite dans ce cours nous est propre et d’une entreprise à
+l’autre les standards peuvent changer !
+
+
+
+
+
+
+
+1°) Norme d’écriture du code
+Le principe d’uniformité PU (cf Annexe 1) va impliquer que l’écriture de votre code suive
+un standard de rédaction. Nous avons commencé à en voir un dans la phase de Conception
+du Logiciel, concernant les modules/classes et les en-têtes de méthodes.
+Nous allons aller plus loin en imposant également des conventions de nommage sur les
+types, variables et méthodes.
+Nous nommerons tous les types en commençant par la lettre T en majuscule et suivi du nom
+en minuscule, par exemple, Ttableau, Tchaine,...
+Concernant les noms de fonctions nous utiliserons les trigrammes pour les fonctions
+appartenant à des modules/classes (méthodes). Le trigramme sera généralement constitué
+par les trois premières lettres du nom du module/classe. Lorsque la fonction n'appartient pas
+à une méthode/classe (la règle pour les structures est identique au cas des classes) alors on
+utilisera simplement son nom en le faisant commencer par une majuscule.
+Le cas des variables est un peu plus complexe. Chaque nom de variable sera précédé d'une
+ou plusieurs lettres selon le cas de figure. Si cette variable est un pointeur alors son nom
+commencera par la lettre p suivi de lettres pour préciser le type sur lequel elle pointe. On
+utilisera le tableau suivant pour les correspondances : celui-ci est donné dans le cas des
+langages C/C++ mais vous pourrez facilement l’adapter à un autre langage !
+
+Lettre Type de base
+c char
+i int
+ui unsigned int
+f float
+d double
+b bool
+
+Par exemple, une variable de nom boucle, de type int, sera nommée iBoucle. Une
+variable de nom ligne et de type pointeur sur un caractère sera nommée pcLigne.
+
+Si la variable est un attribut d'une classe on utilisera le trigramme associé à la classe (cf. ci-
+dessus et le nommage des fonctions). Ainsi, si la variable pcLigne appartient à la classe 
+Cliste_generique, son nom devient pcLIGligne.

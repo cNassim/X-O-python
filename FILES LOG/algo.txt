@@ -1,0 +1,16 @@
+Debut :
+    Si p= O ou S est une feuille aloRs
+        Retourmes f(s)
+    Fin si
+    Si b alors
+        val <- (-infini)
+    Pour chaque filsC de S faire
+        val<-max (val, Minax (c, p-1, Faux))
+    Fin pour
+    Sinon
+        val<-(+infini)
+        Pour chaque filsC de S faire
+            val<- min (val, MinMox(c,p-1, Vrai))
+        Fin pour
+    Fin si
+Fin
